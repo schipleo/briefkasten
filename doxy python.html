@@ -1,0 +1,537 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>Briefkasten Tusche Schiphorst: Paket GUI Projekt</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+<link href="tabs.css" rel="stylesheet" type="text/css">
+</head><body>
+<!-- Erzeugt von Doxygen 1.4.5 -->
+<div class="tabs">
+  <ul>
+    <li><a href="index.html"><span>Hauptseite</span></a></li>
+    <li id="current"><a href="namespaces.html"><span>Pakete</span></a></li>
+    <li><a href="annotated.html"><span>Klassen</span></a></li>
+    <li><a href="files.html"><span>Dateien</span></a></li>
+    <li><a href="dirs.html"><span>Verzeichnisse</span></a></li>
+    <li>
+      <form action="search.php" method="get">
+        <table cellspacing="0" callpadding="0" border="0">
+          <tr>
+            <td><label>&nbsp;<u>S</u>uchen&nbsp;nach&nbsp;</label></td>
+            <td><input type="text" name="query" value="" size="20" accesskey="s"/></td>
+          </tr>
+        </table>
+      </form>
+    </li>
+  </ul></div>
+<div class="tabs">
+  <ul>
+    <li><a href="namespaces.html"><span>Pakete</span></a></li>
+    <li><a href="namespacemembers.html"><span>Elemente&nbsp;eines&nbsp;Namensbereiches</span></a></li>
+  </ul></div>
+<h1>Paket GUI Projekt</h1>
+<p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Funktionen</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">def&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#d28cf028b5a01aa24750ddcc8043fb4c">button_action</a></td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">def&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#e500db6bbed4b77bb2dd618c4edd832c">abfrage</a></td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">def&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#e62569e085db15f6ed3d24277be50708">status_abfrage</a></td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">def&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#e8f947438b1aa70ca97a3b987eabcd19">action_get_info_dialog</a></td></tr>
+
+<tr><td colspan="2"><br><h2>Variablen</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top">tuple&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#df11b305f4bafeda5db2e8ba1f17a00c">esp_server</a> = serial.Serial('COM3', 9600)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">tuple&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#a43c1b0aa53a0c908810c06ab1ff3967">input</a> = esp_server.readline()</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">tuple&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a> = Tk()</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">tuple&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#281219b5d884be9d2f653e89bdf1ff25">menuleiste</a> = Menu(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">tuple&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#0913cfd5c66198ef5dd830dd089d561e">datei_menu</a> = Menu(<a class="el" href="namespace_g_u_i_01_projekt.html#281219b5d884be9d2f653e89bdf1ff25">menuleiste</a>, tearoff=0)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">tuple&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#b8462c10fc0b36b190dcad5e82db0233">extra_menu</a> = Menu(<a class="el" href="namespace_g_u_i_01_projekt.html#281219b5d884be9d2f653e89bdf1ff25">menuleiste</a>, tearoff=0)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">tuple&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#67910959773595f52a3719fa52dacc27">status_menu</a> = Menu(<a class="el" href="namespace_g_u_i_01_projekt.html#281219b5d884be9d2f653e89bdf1ff25">menuleiste</a>,tearoff=0)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">tuple&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#9fc3122651b981c1bd56e67f4e044557">begruessung_label</a> = Label(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>, text=&quot;Ich bin dein persönlicher Briefkasten Assistent&quot;,bg = &quot;#FBEFF8&quot;, fg=&quot;#B4045F&quot;)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">tuple&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#13970e72452a61b2c1b822d85a5815ed">anweisungs_label</a></td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">tuple&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#6b1ced1a27e19ac61ffcba5a6abf1130">refresh_button</a> = Button(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>, text=&quot;Refresh&quot;, command=abfrage, bg ='#FACC2E')</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">tuple&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#519df4eb095b53ccd1e522bbd716317b">refresh_label</a> = Label(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>, text=&quot;Für eine erweiterte Ausgabe, drücke 'Erweiterter Status'&quot;, bg = &quot;#FBEFF8&quot;)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">tuple&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#3a4f869529cf5a89496e1bd7ff5c977c">status_label</a> = Label(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>, text=<a class="el" href="namespace_g_u_i_01_projekt.html#a43c1b0aa53a0c908810c06ab1ff3967">input</a>, bg = &quot;#FBEFF8&quot;, fg =&quot;#F5A9BC&quot;)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">tuple&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#4f74aaf04cda382e50a21a17a215fd67">exit_button</a> = Button(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>, text=&quot;Beenden&quot;, command=fenster.quit, bg='#FF0040')</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">tuple&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#c9512565ef6194ca664dc41ec0de7a53">B1</a> = Button(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>, text = &quot;Erweiterter Status&quot;, command = status_abfrage, bg ='#40FF00')</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">tuple&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_g_u_i_01_projekt.html#32035bbc672f3e0e3313a2e7ab92a66f">neu_button</a> = Button(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>, text =&quot;Neu&quot;, command = fenster.update())</td></tr>
+
+</table>
+<hr><h2>Dokumentation der Funktionen</h2>
+<a class="anchor" name="e500db6bbed4b77bb2dd618c4edd832c"></a><!-- doxytag: member="GUI Projekt::abfrage" ref="e500db6bbed4b77bb2dd618c4edd832c" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">def GUI Projekt.abfrage           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="e8f947438b1aa70ca97a3b987eabcd19"></a><!-- doxytag: member="GUI Projekt::action_get_info_dialog" ref="e8f947438b1aa70ca97a3b987eabcd19" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">def GUI Projekt.action_get_info_dialog           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="d28cf028b5a01aa24750ddcc8043fb4c"></a><!-- doxytag: member="GUI Projekt::button_action" ref="d28cf028b5a01aa24750ddcc8043fb4c" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">def GUI Projekt.button_action           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="e62569e085db15f6ed3d24277be50708"></a><!-- doxytag: member="GUI Projekt::status_abfrage" ref="e62569e085db15f6ed3d24277be50708" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">def GUI Projekt.status_abfrage           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="mdname1" valign="top" nowrap>          </td>
+          <td class="md" valign="top">&nbsp;)&nbsp;</td>
+          <td class="md" nowrap></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<hr><h2>Variablen-Dokumentation</h2>
+<a class="anchor" name="13970e72452a61b2c1b822d85a5815ed"></a><!-- doxytag: member="GUI Projekt::anweisungs_label" ref="13970e72452a61b2c1b822d85a5815ed" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">tuple GUI <a class="el" href="namespace_g_u_i_01_projekt.html#13970e72452a61b2c1b822d85a5815ed">Projekt.anweisungs_label</a><code> [static]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+<b>Initialisierung:</b><div class="fragment"><pre class="fragment">Label(fenster, text=<span class="stringliteral">"Für einen aktuellen Status:\n\</span>
+<span class="stringliteral">Klicke auf 'refresh'."</span>,bg = <span class="stringliteral">"#FBEFF8"</span>)
+</pre></div>    </td>
+  </tr>
+</table>
+<a class="anchor" name="c9512565ef6194ca664dc41ec0de7a53"></a><!-- doxytag: member="GUI Projekt::B1" ref="c9512565ef6194ca664dc41ec0de7a53" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">tuple GUI <a class="el" href="namespace_g_u_i_01_projekt.html#c9512565ef6194ca664dc41ec0de7a53">Projekt.B1</a> = Button(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>, text = &quot;Erweiterter Status&quot;, command = status_abfrage, bg ='#40FF00')<code> [static]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="9fc3122651b981c1bd56e67f4e044557"></a><!-- doxytag: member="GUI Projekt::begruessung_label" ref="9fc3122651b981c1bd56e67f4e044557" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">tuple GUI <a class="el" href="namespace_g_u_i_01_projekt.html#9fc3122651b981c1bd56e67f4e044557">Projekt.begruessung_label</a> = Label(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>, text=&quot;Ich bin dein persönlicher Briefkasten Assistent&quot;,bg = &quot;#FBEFF8&quot;, fg=&quot;#B4045F&quot;)<code> [static]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="0913cfd5c66198ef5dd830dd089d561e"></a><!-- doxytag: member="GUI Projekt::datei_menu" ref="0913cfd5c66198ef5dd830dd089d561e" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">tuple GUI <a class="el" href="namespace_g_u_i_01_projekt.html#0913cfd5c66198ef5dd830dd089d561e">Projekt.datei_menu</a> = Menu(<a class="el" href="namespace_g_u_i_01_projekt.html#281219b5d884be9d2f653e89bdf1ff25">menuleiste</a>, tearoff=0)<code> [static]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="df11b305f4bafeda5db2e8ba1f17a00c"></a><!-- doxytag: member="GUI Projekt::esp_server" ref="df11b305f4bafeda5db2e8ba1f17a00c" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">tuple GUI <a class="el" href="namespace_g_u_i_01_projekt.html#df11b305f4bafeda5db2e8ba1f17a00c">Projekt.esp_server</a> = serial.Serial('COM3', 9600)<code> [static]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="4f74aaf04cda382e50a21a17a215fd67"></a><!-- doxytag: member="GUI Projekt::exit_button" ref="4f74aaf04cda382e50a21a17a215fd67" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">tuple GUI <a class="el" href="namespace_g_u_i_01_projekt.html#4f74aaf04cda382e50a21a17a215fd67">Projekt.exit_button</a> = Button(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>, text=&quot;Beenden&quot;, command=fenster.quit, bg='#FF0040')<code> [static]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="b8462c10fc0b36b190dcad5e82db0233"></a><!-- doxytag: member="GUI Projekt::extra_menu" ref="b8462c10fc0b36b190dcad5e82db0233" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">tuple GUI <a class="el" href="namespace_g_u_i_01_projekt.html#b8462c10fc0b36b190dcad5e82db0233">Projekt.extra_menu</a> = Menu(<a class="el" href="namespace_g_u_i_01_projekt.html#281219b5d884be9d2f653e89bdf1ff25">menuleiste</a>, tearoff=0)<code> [static]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a2147086850706ecb2b6f2919fed8e40"></a><!-- doxytag: member="GUI Projekt::fenster" ref="a2147086850706ecb2b6f2919fed8e40" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">tuple GUI <a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">Projekt.fenster</a> = Tk()<code> [static]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="a43c1b0aa53a0c908810c06ab1ff3967"></a><!-- doxytag: member="GUI Projekt::input" ref="a43c1b0aa53a0c908810c06ab1ff3967" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">tuple GUI <a class="el" href="namespace_g_u_i_01_projekt.html#a43c1b0aa53a0c908810c06ab1ff3967">Projekt.input</a> = esp_server.readline()<code> [static]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="281219b5d884be9d2f653e89bdf1ff25"></a><!-- doxytag: member="GUI Projekt::menuleiste" ref="281219b5d884be9d2f653e89bdf1ff25" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">tuple GUI <a class="el" href="namespace_g_u_i_01_projekt.html#281219b5d884be9d2f653e89bdf1ff25">Projekt.menuleiste</a> = Menu(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>)<code> [static]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="32035bbc672f3e0e3313a2e7ab92a66f"></a><!-- doxytag: member="GUI Projekt::neu_button" ref="32035bbc672f3e0e3313a2e7ab92a66f" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">tuple GUI <a class="el" href="namespace_g_u_i_01_projekt.html#32035bbc672f3e0e3313a2e7ab92a66f">Projekt.neu_button</a> = Button(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>, text =&quot;Neu&quot;, command = fenster.update())<code> [static]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="6b1ced1a27e19ac61ffcba5a6abf1130"></a><!-- doxytag: member="GUI Projekt::refresh_button" ref="6b1ced1a27e19ac61ffcba5a6abf1130" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">tuple GUI <a class="el" href="namespace_g_u_i_01_projekt.html#6b1ced1a27e19ac61ffcba5a6abf1130">Projekt.refresh_button</a> = Button(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>, text=&quot;Refresh&quot;, command=abfrage, bg ='#FACC2E')<code> [static]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="519df4eb095b53ccd1e522bbd716317b"></a><!-- doxytag: member="GUI Projekt::refresh_label" ref="519df4eb095b53ccd1e522bbd716317b" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">tuple GUI <a class="el" href="namespace_g_u_i_01_projekt.html#519df4eb095b53ccd1e522bbd716317b">Projekt.refresh_label</a> = Label(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>, text=&quot;Für eine erweiterte Ausgabe, drücke 'Erweiterter Status'&quot;, bg = &quot;#FBEFF8&quot;)<code> [static]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="3a4f869529cf5a89496e1bd7ff5c977c"></a><!-- doxytag: member="GUI Projekt::status_label" ref="3a4f869529cf5a89496e1bd7ff5c977c" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">tuple GUI <a class="el" href="namespace_g_u_i_01_projekt.html#3a4f869529cf5a89496e1bd7ff5c977c">Projekt.status_label</a> = Label(<a class="el" href="namespace_g_u_i_01_projekt.html#a2147086850706ecb2b6f2919fed8e40">fenster</a>, text=<a class="el" href="namespace_g_u_i_01_projekt.html#a43c1b0aa53a0c908810c06ab1ff3967">input</a>, bg = &quot;#FBEFF8&quot;, fg =&quot;#F5A9BC&quot;)<code> [static]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<a class="anchor" name="67910959773595f52a3719fa52dacc27"></a><!-- doxytag: member="GUI Projekt::status_menu" ref="67910959773595f52a3719fa52dacc27" args="" --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">tuple GUI <a class="el" href="namespace_g_u_i_01_projekt.html#67910959773595f52a3719fa52dacc27">Projekt.status_menu</a> = Menu(<a class="el" href="namespace_g_u_i_01_projekt.html#281219b5d884be9d2f653e89bdf1ff25">menuleiste</a>,tearoff=0)<code> [static]</code>          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+    </td>
+  </tr>
+</table>
+<hr size="1"><address style="align: right;"><small>Erzeugt am Sat Jun 23 16:01:59 2018 f�r Briefkasten Tusche Schiphorst von&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.4.5 </small></address>
+</body>
+</html>
